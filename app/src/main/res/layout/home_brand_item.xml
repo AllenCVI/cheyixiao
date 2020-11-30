@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="16dp"
+              android:gravity="center_vertical"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+    >
+
+        <ImageView
+                android:id="@+id/iv_brand"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_centerVertical="true"/>
+
+
+        <TextView
+                android:layout_toRightOf="@+id/iv_brand"
+                android:id="@+id/tv_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="奥迪"
+                android:textColor="#333333"
+                android:layout_centerVertical="true"
+        />
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                      android:layout_marginRight="@dimen/dp_10"
+        >
+
+            <TextView
+                    android:id="@+id/h5_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_10_size"
+                    android:text="动态3D"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:background="@drawable/text_h5_yellow_shape"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:textColor="@color/yellow_ff"
+
+            />
+            <TextView
+                    android:id="@+id/quanjing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_10_size"
+                    android:text="4K全景"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:background="@drawable/text_quanjing_50blue_shape"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:textColor="@color/blue39"
+            />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/greydd"/>
+
+
+</LinearLayout>

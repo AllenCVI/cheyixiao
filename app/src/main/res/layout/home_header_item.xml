@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_home_header"
+        android:orientation="vertical">
+        <!--欢迎语-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:fitsSystemWindows="true"
+            android:text="@string/home_welcome"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_18_size"
+            android:textStyle="bold" />
+
+        <!--Banner-->
+        <com.autoforce.cheyixiao.home.view.banner.MZBannerView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="202.5dp"
+            android:layout_marginTop="12.5dp"
+            android:layout_marginBottom="10dp"
+            app:canLoop="true"
+            app:open_mz_mode="true" />
+
+        <!--四个服务选项-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10.5dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/greydd" />
+
+    <!--热门车型-->
+    <TextView
+        android:id="@+id/tv_hotcar"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/ic_home_hot_car_like"
+        android:drawablePadding="5.5dp"
+        android:gravity="center"
+        android:text="@string/home_hot_car"
+        android:textColor="@color/black2"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/hot_car_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/greydd" />
+
+
+    <!--品牌列表-->
+    <TextView
+        android:id="@+id/tv_pinpai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/ic_home_brand_star"
+        android:drawablePadding="4dp"
+        android:text="@string/home_brand_list"
+        android:textColor="@color/black2"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

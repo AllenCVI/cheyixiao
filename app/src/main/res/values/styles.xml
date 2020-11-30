@@ -1,0 +1,137 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="toolBar" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black3</item>
+        <item name="android:windowBackground">@color/greyf0</item>
+        <item name="android:homeAsUpIndicator">@drawable/icon_back</item>
+    </style>
+
+    <!--首页底部RadioButton-->
+    <style name="MainTabItemStyle" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:drawablePadding">2.5dp</item>
+        <item name="android:textColor">@color/main_tab_text_color_selector</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--车源页顶部tab样式-->
+    <style name="rbCarSourceTopStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/car_source_top_textcolor_selector</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawableBottom">@drawable/car_source_top_selector</item>
+    </style>
+
+
+    <style name="pop_anim">
+        <item name="android:windowEnterAnimation">@anim/pop_show</item>
+        <item name="android:windowExitAnimation">@anim/pop_hidden</item>
+    </style>
+
+    <style name="carSourceTagStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black9</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_rectround_line_greyd5</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="searchCarTagStyle">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black9</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_rectround_line_greyd5</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+
+    <style name="leftAndRightTopStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/left_right_top_textcolor_selector</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawableBottom">@drawable/left_right_top_selector</item>
+    </style>
+
+    <style name="rbSearchChildTopStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/car_source_top_textcolor_selector</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">13sp</item>
+
+    </style>
+
+    <style name="registerInputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:background">@null</item>
+        <!--<item name="android:layout_marginLeft">28dp</item>-->
+        <!--<item name="android:layout_marginRight">28dp</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/black9</item>
+    </style>
+
+    <style name="black9RedTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_14_size</item>
+        <item name="android:textColor">@color/black9_red_textcolor_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+
+    </style>
+
+    <style name="textsize14TextcolorRedd5Style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/redD5</item>
+    </style>
+
+    <!--更新 Dialog-->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/trancenate</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+
+    <!--闪屏页面主题，防止白屏-->
+    <style name="splashTheme" parent="AppTheme">
+
+        <item name="android:background">@drawable/bg_splash_theme</item>
+        <!--<item name="android:windowBackground">@color/redD5</item>-->
+    </style>
+
+</resources>

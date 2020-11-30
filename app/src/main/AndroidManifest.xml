@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.autoforce.cheyixiao">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- x5内核权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--高德定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <!--友盟权限-->
+    <!--<uses-permission android:name="android.permission.WRITE_SETTINGS" />-->
+    <!--<uses-permission android:name="android.permission.WAKE_LOCK" />-->
+    <!--<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />-->
+    <!--<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />-->
+    <!--<uses-permission android:name="android.permission.GET_TASKS" />-->
+    <!--<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />-->
+
+
+    <!-- Bugly权限 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- 外部存储读权限，调试工具加载本地补丁需要 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!--Hotfix TODO 下面的是测试版的秘钥-->
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="25320416-1" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="e84572da92a7c6d888f4f049493b63c8" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCSwgFa1h5PkmiQXIUksyUCQmKLBIwKf2G5OOKFdZr3OnerjEoq3lOb2sP0J4hZwHoSrqGo2rsEyC5jFY5t1tj0f+Pk94CpbOXdR14ZpvoIcF9e4DkuWmPBI0JWKYBOejr0jFg2y4lorU+yuFvoNXbPWwGPnEHXP9iOCjrD3W1MBaxTVFGtkeiEcjvPGJOme6G3Du7p2v65cGVldA+yD9UrnpGLJpv+eVhxq49fdcCMhZbpUcOxhdUBUiC/DDQ7UDU4VPi8QGf2MHNxIdYouzxwxIdmxMccaQfJe4glBYhe3gcdiE8VySvgYptAIGr9eT87X9XIs+/CWBUuCMAWZkG3AgMBAAECggEAbmQygrKHUFGQB+8gU8/Radanq2x7LrZMuvfYJI2nSIqZU9gOPhrIh3bSaUiHXwPSj1T+0zXc8abmha/EWEkBH0FIGoY2KLt6WK2DUgZxE4H7qzE8sepaGQC9uHQ1SFLXH/alsGn/7VZYmdXlhFEbErShAvaF7DThX07Aj25y9Xg2jYzfLIap9OLH7xwxvo1St8a+XMtEsMx62//ftE6O02rBsePwCPC6mh1NKzf4DFh/Lg0SNSU3svrvIdMME1nCyBLDIttzoQNMmEXg+KULilGWmTma0WukyTNPXttfybSv2nCfhKZSMhubSzxmz7pZ4c5yT2wZXPHnrg060I8zWQKBgQDRCiuOj282f6zAQ6TFb91XsxgigVXp/VmZyNjyv7lrv1+RfkPZZfCmy+wLQt2XhoG1ZyblCnrvwvdm9ux6BCpTKUItWhF9f28dM6UJHm2r8WpRlpZeZ8GR6YZnELWg2wum+B5hsrHlvvOK/K4ev9ydQyH7Nb09IjUGE/c9Oe+V0wKBgQCzugRMW0tj+aTnDmdnxaeCsQd7n3q75xYYmH6S5QVzuICiVXcaqi+te8Suf+Onp0wE/qMzbroxENRDLgPfYov+Gh262INvUc1XCCB3x1QfTFs31D29Ej2ASaKGs1gkbwrEz+M3LaqAe3YBJxF3+GoCDiI3SnOUmWvGBVFNh7ACDQKBgACBA8XeNqhs+l+kShtnv6Lcfaxnn2tm/vZN86fyKmJGHdbd9Q/rHP9p8nG8gYhB/MIRM5jNw6ocUDhhVASfSfLVYKF3XB9vVTc+zqEM/7qwZE86C7bCjUbqxzYsZiOzI34NjxUxNxiUs0Wcglb0o3WFmelfIcup73LKTYhKQXedAoGAS1uIp9dzsfSfzv28H8fBZ8wAfjYtSRIosqFmGQOMGKxYyzgYm4aWPSBzJFOdSdOczU9TcKJR0Xbj+VMW7pgsaJvcsVZNLeTXu1E+A9sBC6qBaNRGGrvGK780NVSHdadVlZYxCBbOsdaScQNHkM0I7dmtQQ+njLwTc1ERePeWthUCgYAeZm7zkNOVm6yh1dlEfwke0MTTP4iwuFMraEvoZmB2upKeXRc2HO9FAGq6yots6QT9LXbf5+YSI7vfrKA8/gY8yoaY06t192yDXpOh92nRh2Nc/9l26R9wPzbpVhNeXuW1gToKu0wZO7uryy7M4hbad6qCRD43t1awIGdCPGhSew==" />
+
+
+        <!--友盟-->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5bdbb93ab465f50cff0001d9" />
+        <!-- Channel ID用来标识App的推广渠道，作为推送消息时给用户分组的一个维度。-->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="ChannelID" />
+
+        <!--高德定位-->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="96d06044586323456fe31de1edb1c557" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <!-- 更改密码界面 -->
+        <activity android:name=".mine.ChangePwdActivity" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".SplashAct"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <!--必有项-->
+                <action android:name="android.intent.action.VIEW" />
+                <!--表示该页面可以被隐式调用，必须加上该项-->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!--如果希望该应用可以通过浏览器的连接启动，则添加该项-->
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!--协议部分，使用： cyx://com.autoforce.net -->
+                <data
+                    android:host="com.autoforce.net"
+                    android:scheme="cyx" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- 热销车界面 -->
+        <activity android:name=".mine.HotCarActivity" />
+        <!-- 我的余额界面 -->
+        <activity android:name=".mine.MineBalanceActivity" />
+        <!-- //我的积分界面 -->
+        <activity
+            android:name=".mine.MineIntegralActivity"
+            android:hardwareAccelerated="true" />
+        <!-- //车源订单页面 -->
+        <activity android:name=".mine.CarResouceOrderActivity" />
+
+        <!-- 客户二级页面 -->
+        <activity android:name=".customer.customersecond.CustomerSecondActivity" />
+        <!--客户二级页面H5-->
+        <activity android:name=".customer.customersecondh5.CustomerSecondH5Activity" />
+
+        <!-- 认证信息界面 -->
+        <activity
+            android:name=".mine.ApproveInfoActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name=".car.FilterPriceCustomAct" />
+        <activity
+            android:name=".car.source.me.MyCarSourceAct"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name=".base.CommonX5WebViewInterceptActivity"></activity>
+        <activity
+            android:name=".car.source.PublishSourceAct"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".car.search.PublishSearchAct"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".car.search.SearchDetailAct"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+        <activity android:name=".mine.web2.ApproveInfoWebActivity" />
+        <!--普通 web-->
+        <activity
+            android:name=".home.act.HomeWebActivity"
+            android:screenOrientation="portrait" />
+
+        <!--下载列表-->
+        <activity
+            android:name=".home.act.HomeDownloadListActivity"
+            android:screenOrientation="portrait" />
+        <!--全景 web-->
+        <activity
+            android:name=".home.act.HomeHotCarWebActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".car.source.SourceDetailAct"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.RegisterAct"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name=".login.forget.PwdForgetOneAct" />
+        <activity android:name=".login.forget.PwdForgetTwoAct" />
+        <activity android:name=".login.InfoCertificateAct" />
+        <activity
+            android:name=".home.act.HomeBrandActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.act.HomeBrandPanoramaActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".home.act.HomeExternalActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.autoforce.cheyixiao.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".base.CommonBarWebActivity"></activity>
+
+    </application>
+
+</manifest>

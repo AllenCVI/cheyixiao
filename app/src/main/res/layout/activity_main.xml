@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/tab_home"
+                style="@style/MainTabItemStyle"
+                android:drawableTop="@drawable/tab_home_selector"
+                android:text="@string/home_page" />
+            <RadioButton
+                android:id="@+id/tab_car"
+                style="@style/MainTabItemStyle"
+                android:drawableTop="@drawable/tab_car_selector"
+                android:text="@string/car_source" />
+            <RadioButton
+                android:id="@+id/tab_customer"
+                style="@style/MainTabItemStyle"
+                android:drawableTop="@drawable/tab_customer_selector"
+                android:text="@string/customer" />
+            <RadioButton
+                android:id="@+id/tab_mine"
+                style="@style/MainTabItemStyle"
+                android:drawableTop="@drawable/tab_mine_selector"
+                android:text="@string/mine" />
+        </RadioGroup>
+    </LinearLayout>
+	<include layout="@layout/view_cut_progress"/>
+    <!--<FrameLayout
+	    android:id="@+id/fl_cut_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    android:visibility="gone"
+	    android:clickable="true"
+        android:background="@color/black_transparent_50">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_30"
+                android:background="@drawable/shape_white_all_rount">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="200dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="@string/file_cut_tip"/>
+                <net.qiujuer.genius.ui.widget.Loading
+                    android:id="@+id/loading"
+                    android:layout_width="@dimen/dp_35"
+                    android:layout_height="@dimen/dp_35"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    app:gBackgroundColor="@null"
+                    app:gForegroundColor="@color/redD5"
+                    app:gForegroundLineSize="2dp"/>
+            </LinearLayout>
+	        <ImageView
+		        android:id="@+id/iv_cha_hao"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="@dimen/dp_10"
+		        android:layout_marginRight="@dimen/dp_10"
+		        android:layout_gravity="right"
+		        android:clickable="true"
+		        android:src="@drawable/ic_cha_hao"/>
+        </FrameLayout>
+    </FrameLayout>-->
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <me.yokeyword.indexablerv.IndexableLayout
+        android:id="@+id/index_able_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:indexBar_background="@color/trancenate"
+        app:indexBar_layout_width="16dp"
+        app:indexBar_selectedTextColor="@color/redf5"
+        app:indexBar_textColor="#686868"
+        app:indexBar_textSize="12sp"
+        app:indexBar_textSpace="4dp" />
+
+    <com.autoforce.cheyixiao.common.view.PageStateView
+        android:id="@+id/page_state_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

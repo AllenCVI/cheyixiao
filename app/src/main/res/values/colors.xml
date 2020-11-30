@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D5001C</color>
+    <color name="colorPrimaryDark">#D5001C</color>
+    <color name="colorAccent">#D5001C</color>
+
+    <!--对于transparent的后的40就是标注图上的不透明度40%-->
+    <color name="white">#ffffff</color>
+    <color name="white_transparent_64">#a3ffffff</color>
+    <color name="white_transparent_20">#33ffffff</color>
+    <color name="white_transparent_40">#66ffffff</color>
+
+    <color name="black3">#333333</color>
+    <color name="black2">#222222</color>
+    <color name="black4">#444444</color>
+    <color name="black6">#666666</color>
+    <color name="black_transparent_40">#66000000</color>
+    <color name="black_transparent_50">#7f000000</color>
+    <color name="black9">#999999</color>
+    <color name="half_transparent_05">#50000000</color>
+    <color name="greye0">#e0e0e0</color>
+
+    <color name="greyd5">#d5d5d5</color>
+    <color name="greyd8">#d8d8d8</color>
+    <color name="greyea">#eaeaea</color>
+    <color name="redD5">#D5001C</color>
+    <color name="redD5_transparent60">#9cD5001C</color>
+    <color name="red2D5">#22D5001C</color>
+
+    <color name="line_view_color">#efefef</color>
+
+    <color name="orangef5">#F5AB00</color>
+    <color name="orangef5_10persent">#1AF5AB00</color>
+    <color name="redf5">#D5001C</color>
+    <color name="redf5_10persent">#1AD5001C</color>
+    <color name="black_2318">#231818</color>
+    <color name="grey97">#979797</color>
+    <color name="redframe">#D50201</color>
+    <color name="grey2a">#2a2a2a</color>
+    <color name="glodF5">#F5AB00</color>
+    <color name="glod2F5">#33F5AB00</color>
+    <color name="d0021b">#D0021B</color>
+    <color name="dddddd">#66eeeeee</color>
+    <color name="trancenate">#00000000</color>
+    <color name="black26">#262626</color>
+    <color name="text">#262626</color>
+
+    <color name="colorKeyPress">#cccccc</color>
+    <color name="yellow">#ffffd100</color>
+
+    <color name="blue39">#3986FF</color>
+    <color name="blue39alpa15">#153986FF</color>
+    <color name="blue39alpa88">#883986FF</color>
+
+    <color name="text_showpre">#A1A2A4</color>
+    <color name="bg_preferencetv">#C7C7C7</color>
+    <color name="predetail">#292d39</color>
+    <color name="White_smoke">#F5F5F5</color>
+
+    <color name="yellow_ff">#FF7417</color>
+    <color name="yellow_ff_alpa15">#15FF7417</color>
+    <color name="greydd">#dddddd</color>
+
+</resources>

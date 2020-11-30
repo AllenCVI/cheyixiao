@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/ll_webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+        >
+
+            <ImageView
+                    android:id="@+id/bar_back"
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="@dimen/dp_30"
+                    android:src="@drawable/icon_bar_back"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:padding="@dimen/dp_5"
+            />
+            <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_16_size"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black3"
+                    android:text="@string/title"
+            />
+
+        </RelativeLayout>
+        <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_1"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        <com.tencent.smtt.sdk.WebView
+                android:id="@+id/web_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        </com.tencent.smtt.sdk.WebView>
+    </LinearLayout>
+    <com.autoforce.cheyixiao.common.view.PageStateView
+            android:id="@+id/psv_tip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+    </com.autoforce.cheyixiao.common.view.PageStateView>
+    <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="29dp"
+            android:clickable="true"
+            android:src="@drawable/icon_back"/>
+</FrameLayout>

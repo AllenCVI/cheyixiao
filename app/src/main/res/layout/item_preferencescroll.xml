@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="146dp"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:layout_marginRight="15dp"
+        >
+
+
+    <ImageView
+            android:id="@+id/iv_sign"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="25dp"
+            android:src="@color/orangef5"
+            />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_describe"
+            android:textSize="12sp"
+            android:textColor="@color/black3"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/iv_sign"
+            android:layout_alignTop="@+id/iv_sign"
+            />
+
+
+    <com.autoforce.cheyixiao.common.view.MyLinearLayout
+            android:id="@+id/myshowlinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_sign"
+            android:layout_marginHorizontal="4.5dp"
+            android:layout_marginVertical="14dp"
+            >
+
+    </com.autoforce.cheyixiao.common.view.MyLinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

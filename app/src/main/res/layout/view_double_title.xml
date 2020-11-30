@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingRight="20dp"
+        android:paddingTop="@dimen/dp_8"
+        android:paddingBottom="@dimen/dp_8"
+        >
+
+        <ImageView
+            android:id="@+id/bar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_bar_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_source"
+                style="@style/leftAndRightTopStyle"
+                android:text="@string/buy_car_order_lose"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_search"
+                style="@style/leftAndRightTopStyle"
+                android:layout_marginLeft="33dp"
+                android:text="@string/car_resouce_order_lose" />
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

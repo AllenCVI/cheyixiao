@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="@dimen/dp_8">
+
+        <TextView
+            android:id="@+id/can_money"
+            style="@style/black9RedTextStyle"
+            android:text="@string/can_money"
+            />
+
+        <TextView
+            android:id="@+id/caning_money"
+            style="@style/black9RedTextStyle"
+            android:text="@string/no_tixian"
+            />
+
+        <TextView
+            android:id="@+id/caned_money"
+            style="@style/black9RedTextStyle"
+            android:text="@string/caned_money"
+            />
+
+        <TextView
+            android:id="@+id/can_money_default"
+            style="@style/black9RedTextStyle"
+            android:text="@string/can_money_default"
+            />
+
+        <TextView
+            android:id="@+id/frost_can_money"
+            style="@style/black9RedTextStyle"
+            android:text="@string/frost_can_money"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/child_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/all_can_but"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/all_can_but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/redD5"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16_size"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_alignParentBottom="true"
+            android:text="@string/can_all_money"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

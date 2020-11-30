@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <!-- <include layout="@layout/view_toolbar"></include>-->
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        <com.tencent.smtt.sdk.WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+        </com.tencent.smtt.sdk.WebView>
+    </LinearLayout>
+    
+    <com.autoforce.cheyixiao.common.view.PageStateView
+        android:id="@+id/psv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </com.autoforce.cheyixiao.common.view.PageStateView>
+    
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="29dp"
+        android:clickable="true"
+        android:src="@drawable/icon_back"/>
+</FrameLayout>

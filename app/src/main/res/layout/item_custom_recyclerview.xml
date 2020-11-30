@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+        >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            >
+
+        <com.autoforce.cheyixiao.common.view.roundedimageview.RoundedImageView
+                android:id="@+id/rig_head"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_margin="18dp"
+                android:src="@drawable/default_headimg"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.5dp"
+                android:layout_toRightOf="@+id/rig_head"
+                android:layout_alignTop="@+id/rig_head"
+                android:text="@string/JamesApplessd"
+                android:textSize="13sp"
+                android:textColor="@color/black3"
+                />
+
+        <TextView
+                android:id="@+id/tv_state"
+                android:layout_width="18.4dp"
+                android:layout_height="46.8dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/bg_state"
+                android:text="@string/bg_state"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_logintime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_alignStart="@+id/tv_name"
+                android:layout_marginTop="1.5dp"
+                android:textSize="12sp"
+                android:textColor="@color/black3"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_logintime"
+                android:layout_alignStart="@+id/tv_logintime"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginRight="19.5dp"
+                android:textColor="@color/black9"
+                android:textSize="12sp"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_salesman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_statement"
+                android:layout_alignStart="@+id/tv_statement"
+                android:layout_marginTop="8.5dp"
+                android:paddingVertical="2dp"
+                android:paddingHorizontal="7.5dp"
+                android:background="@drawable/bg_rectround_orangef5_10persent_1dp"
+                android:textSize="10sp"
+                android:textColor="@color/orangef5"
+                android:text="@string/salesman"
+                />
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_salesman"
+                android:layout_marginTop="11.5dp"
+                android:layout_marginHorizontal="21.5dp"
+                android:background="@color/line_view_color"
+                />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            >
+
+    <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="203"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="16dp"
+            >
+
+        <TextView
+                android:id="@+id/tv_carsysytem_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="21.5dp"
+                android:text="@string/car_system"
+                android:textSize="12sp"
+                android:textColor="@color/black9"
+                />
+
+
+        <HorizontalScrollView
+                android:id="@+id/horizontal_scrollview"
+                android:layout_width="203dp"
+                android:layout_height="63dp"
+                android:scrollbars="none"
+                android:layout_below="@+id/tv_carsysytem_num"
+                >
+            <com.autoforce.cheyixiao.common.view.MyLinearLayout
+                    android:id="@+id/Mylinearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:paddingLeft="13dp"
+                    >
+
+            </com.autoforce.cheyixiao.common.view.MyLinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </RelativeLayout>
+
+        <View
+                android:id="@+id/view_line"
+                android:layout_width="1dp"
+                android:layout_height="76.5dp"
+                android:layout_marginTop="14dp"
+                android:background="@color/line_view_color"
+                />
+
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="170"
+                android:background="@color/white"
+                android:paddingBottom="16dp"
+                android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tv_Reservecarmodel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.5dp"
+                android:layout_marginTop="14dp"
+                android:text="@string/prearranged_model"
+                android:textSize="12sp"
+                android:textColor="@color/black9"
+                />
+
+        <ImageView
+                android:id="@+id/iv_car"
+                android:layout_width="79dp"
+                android:layout_height="29dp"
+                android:visibility="invisible"
+                android:layout_below="@+id/tv_Reservecarmodel"
+                android:layout_marginTop="10.5dp"
+                android:layout_marginLeft="45.5dp"
+                android:src="@color/orangef5"
+                />
+
+        <TextView
+                android:id="@+id/tv_predetermine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="72.5dp"
+                android:layout_below="@+id/tv_Reservecarmodel"
+                android:layout_marginTop="23dp"
+                android:text="@string/no_predetermine"
+                android:textSize="12sp"
+                android:textColor="@color/black9"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_car"
+                android:visibility="invisible"
+                android:text="@string/carname"
+                android:layout_marginLeft="53.5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:textColor="@color/black3"
+                />
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

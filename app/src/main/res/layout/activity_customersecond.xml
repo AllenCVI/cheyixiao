@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+        >
+
+
+    <include layout="@layout/view_toolbar"></include>
+
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            >
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:background="@color/white"
+            >
+
+        <com.autoforce.cheyixiao.common.view.roundedimageview.RoundedImageView
+                android:id="@+id/rig_head"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_margin="18dp"
+                android:src="@drawable/default_headimg"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.5dp"
+                android:layout_toRightOf="@+id/rig_head"
+                android:layout_alignTop="@+id/rig_head"
+                android:text="@string/zxf"
+                android:textSize="13sp"
+                android:textColor="@color/black3"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rectround_redf5_10persent_1dp"
+                android:textColor="@color/redf5"
+                android:text="跟进中"
+                android:textSize="10sp"
+                android:layout_toRightOf="@+id/tv_name"
+                android:layout_alignBaseline="@+id/tv_name"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="1dp"
+
+                android:layout_marginLeft="10dp"
+                />
+
+
+
+        <TextView
+                android:id="@+id/tv_salesman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_state"
+                android:layout_alignBaseline="@+id/tv_name"
+                android:paddingVertical="2dp"
+                android:paddingHorizontal="7.5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bg_rectround_orangef5_10persent_1dp"
+                android:textSize="10sp"
+                android:textColor="@color/orangef5"
+                android:text="@string/salesman"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_logintime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_alignStart="@+id/tv_name"
+                android:layout_marginTop="3dp"
+                android:textSize="11sp"
+                android:textColor="@color/black9"
+                android:text="@string/logintime"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_logintime"
+                android:layout_alignStart="@+id/tv_logintime"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginRight="19.5dp"
+                android:textColor="@color/black9"
+                android:text="@string/statement"
+                android:textSize="12sp"
+                />
+
+
+           <TextView
+                   android:id="@+id/tv_userinfo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignStart="@+id/tv_statement"
+                   android:background="@drawable/bg_redfram"
+                   android:layout_below="@+id/tv_statement"
+                   android:layout_marginTop="8dp"
+                   android:text="用户信息补录"
+                   android:textColor="@color/redf5"
+                   android:textSize="11sp"
+                   />
+
+
+        <TextView
+                android:id="@+id/tv_userinfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_userinfo"
+                android:layout_toRightOf="@+id/tv_userinfo"
+                android:layout_marginLeft="9dp"
+                android:background="@drawable/bg_redfram"
+                android:layout_marginTop="8dp"
+                android:text="用户信息补录"
+                android:textColor="@color/redf5"
+                android:textSize="11sp"
+                />
+
+        <TextView
+                android:id="@+id/tv_userinfo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_userinfo1"
+                android:layout_toRightOf="@+id/tv_userinfo1"
+                android:layout_marginLeft="9dp"
+                android:background="@drawable/bg_redfram"
+                android:layout_marginTop="8dp"
+                android:text="用户信息补录"
+                android:textColor="@color/redf5"
+                android:textSize="11sp"
+                />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            >
+
+        <TextView
+                android:id="@+id/tv_carmodel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="关注车型"
+                android:textColor="@color/redf5"
+                android:textSize="14sp"
+                android:paddingTop="14.5dp"
+                android:layout_marginLeft="18dp"
+                />
+
+
+        <TextView
+                android:id="@+id/tv_orderdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="14.5dp"
+                android:text="订单详情"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/tv_carmodel"
+                android:layout_marginLeft="28dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"/>
+
+
+        <View
+                android:id="@+id/vline_carmodel"
+                android:layout_width="33dp"
+                android:layout_height="1.5dp"
+                android:background="@color/redf5"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/tv_carmodel"
+                android:layout_marginLeft="11.5dp"
+                />
+
+        <View
+                android:id="@+id/vline_orderdetail"
+                android:layout_width="33dp"
+                android:layout_height="1.5dp"
+                android:visibility="gone"
+                android:background="@color/redf5"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/tv_orderdetail"
+                android:layout_marginLeft="11.5dp"
+                />
+
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/White_smoke"
+            >
+
+
+
+
+    </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

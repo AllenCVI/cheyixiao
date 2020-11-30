@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginRight="15dp"
+        >
+
+
+
+    <TextView
+            android:id="@+id/tv_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/tv_describe"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textColor="@color/predetail"
+            />
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@color/amber_900"
+            android:layout_toLeftOf="@id/tv_describe"
+            android:layout_alignTop="@id/tv_describe"
+            />
+
+
+    <ImageView
+            android:layout_width="45.5dp"
+            android:layout_height="45.5dp"
+            android:layout_below="@+id/tv_describe"
+            android:layout_marginTop="17.5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/circle"
+            />
+
+
+
+
+
+
+
+</RelativeLayout>

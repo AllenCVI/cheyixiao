@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/White_smoke"
+        >
+
+
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9.5dp"
+            android:layout_marginLeft="16dp"
+            android:scrollbars="none"
+            >
+        <com.autoforce.cheyixiao.common.view.MyLinearLayout
+                android:id="@+id/srolllinear_car"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+        </com.autoforce.cheyixiao.common.view.MyLinearLayout>
+    </HorizontalScrollView>
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21.5dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Preference"
+            android:textSize="13sp"
+            android:textColor="@color/black3"
+            />
+
+
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginTop="6.5dp"
+            android:scrollbars="none"
+            >
+
+        <com.autoforce.cheyixiao.common.view.MyLinearLayout
+                android:id="@+id/scrolllinear_preference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        </com.autoforce.cheyixiao.common.view.MyLinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preference_detail"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black3"
+            android:textSize="13sp"
+            />
+
+
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginTop="11.5dp"
+            android:scrollbars="none"
+            >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:id="@+id/tv_countcarbody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:paddingVertical="7.5dp"
+                    android:paddingHorizontal="9.5dp"
+                    android:text="@string/tv_color_carbody_Statistics"
+                    android:textSize="11sp"
+                    android:textColor="@color/redD5"
+                    android:background="@drawable/bg_preferencetv_red5"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_counttrim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:paddingVertical="7.5dp"
+                    android:paddingHorizontal="9.5dp"
+                    android:text="@string/tv_color_trim_Statistics"
+                    android:textSize="11sp"
+                    android:textColor="@color/black3"
+                    android:background="@drawable/bg_preferencetv"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_countmatching"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="7.5dp"
+                    android:paddingHorizontal="9.5dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/tv_color_Matching_Statistics"
+                    android:textSize="11sp"
+                    android:textColor="@color/black3"
+                    android:background="@drawable/bg_preferencetv"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_countpart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:paddingVertical="7.5dp"
+                    android:paddingHorizontal="9.5dp"
+                    android:text="@string/tv_color_carbody_Statistics"
+                    android:textSize="11sp"
+                    android:textColor="@color/black3"
+                    android:background="@drawable/bg_preferencetv"
+                    />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="10dp"
+            android:scrollbars="none"
+            >
+
+        <com.autoforce.cheyixiao.common.view.MyLinearLayout
+                android:id="@+id/scroll_pre_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+        </com.autoforce.cheyixiao.common.view.MyLinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+
+
+
+
+</LinearLayout>

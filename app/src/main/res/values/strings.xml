@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">车易销</string>
+    <string name="home_page">首页</string>
+    <string name="double_click_quit">再按一次返回键退出</string>
+    <string name="car_source">车源</string>
+    <string name="customer">客户</string>
+    <string name="mine">我的</string>
+    <string name="mine_sprlus">我的余额</string>
+    <string name="bay_car_order_sprlus">购车订单余额（元）</string>
+    <string name="cars_order_sprlus">车源订单余额（元）</string>
+    <string name="isorno_tixian">可提现</string>
+    <string name="is_tixian">可提现</string>
+    <string name="no_tixian">提现中</string>
+    <string name="mine_account">我的账户</string>
+    <string name="approve_info">认证信息</string>
+    <string name="my_integral">我的积分</string>
+    <string name="order_car_source">车源订单</string>
+    <string name="blank_card">银行卡</string>
+    <string name="mine_manage">我的管理</string>
+    <string name="insurce_manage">保险管理</string>
+    <string name="hot_car">热销车</string>
+    <string name="changer_phone_number">换手机号</string>
+    <string name="change_pwd">变更密码</string>
+    <string name="log_out">退出登录</string>
+    <string name="name">姓名</string>
+    <string name="number">12345678910</string>
+
+    <string name="search_car">寻车</string>
+    <string name="publish">发布</string>
+    <string name="car_source_type">车源类型</string>
+    <string name="address">地址</string>
+    <string name="input_brand_car_type">请输入品牌/车系/车型检索车型</string>
+    <string name="search">搜索</string>
+    <string name="reset">重置</string>
+    <string name="report_price">报价</string>
+
+    <string name="current_pwd">当前密码</string>
+    <string name="current_pwd_hint">请输入当前密码</string>
+    <string name="input_new_pwd">新密码</string>
+    <string name="input_new_pwd_hint">请输入新密码</string>
+    <string name="sure_new_pwd">确认新密码</string>
+    <string name="sure_new_pwd_hint">请确认新密码</string>
+    <string name="change_pwd_title">修改密码</string>
+    <string name="sure">确认</string>
+    <string name="chang_pwd_success">修改密码成功！</string>
+    <string name="buy_car_order_lose">购车订单余额</string>
+    <string name="car_resouce_order_lose">车源订单余额</string>
+    <string name="add_other_hot_car">添加其他热门车型</string>
+    <string name="hot_car_suited">热销车配置</string>
+    <string name="current_hot_car">当前热门车型</string>
+
+    <string name="file_cut_tip">APP更新需校验本地素材包，不会消耗流量，请稍候...</string>
+    <string name="file_cut_progress">本地素材包校验进度</string>
+    
+    <string name="search_all">全部寻车</string>
+    <string name="my_search_car">我的寻车</string>
+    <string name="ten_thousands_unit">%s万</string>
+    <string name="receive_price_by_me">我收到的报价</string>
+    <string name="publish_price_by_me">我发布的报价</string>
+    <string name="brand">品牌</string>
+    <string name="car_type">车系</string>
+    <string name="order_price_format">定金%s元</string>
+    <string name="expect_price_format">期望价%s元</string>
+
+    <string name="can_money">可提现</string>
+    <string name="caned_money">已提现</string>
+    <string name="can_money_default">提现失败</string>
+    <string name="can_all_money">全部提现</string>
+    <string name="buy_car_order">购车订单</string>
+    <string name="can">提现</string>
+    <string name="frost_can_money">冻结金额</string>
+    <string name="mine_integral">我的积分</string>
+    <string name="buy_order">采购订单</string>
+    <string name="stork_remove_order">出库订单</string>
+
+    <string name="please_input_account">请输入您的账号</string>
+    <string name="please_input_pwd">请输入您的密码</string>
+    <string name="please_input_pwd_repeat">请再次输入您的密码</string>
+
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="login_success">登录成功</string>
+    <string name="input_not_empty">输入不能为空</string>
+    <string name="slogan">成就车商·赋能车商</string>
+
+
+    <string name="state">状态</string>
+    <string name="customer_manage">客户管理</string>
+    <string name="car_systemNum">关注车系</string>
+    <string name="saleman">跟进销售：</string>
+
+
+    <!--下面是测试字符串上线前删除-->
+
+    <string name="JamesApplessd">James Applessd</string>
+    <string name="telphone">130****4516</string>
+    <string name="statement">正式上路需经过办理保险、验车、缴附加费、上牌、领照、缴车船使用税、建档等手续</string>
+    <string name="salesman">跟进销售：张一山</string>
+    <string name="bg_state">跟进中</string>
+    <string name="car_system">关注车系 （1个）</string>
+    <string name="carname">迈巴赫VSD</string>
+    <string name="carname1">法拉利CGA</string>
+    <string name="prearranged_model">预定车型 （0个）</string>
+    <string name="zxf">张小凡</string>
+    <string name="logintime">最近登陆:2017.02.11 15：32</string>
+
+    <string name="prearRanged_model">预定车型 （1个）</string>
+
+    <string name="warn">请先选择品牌</string>
+
+    <string name="user">用户</string>
+    <string name="home_welcome">欢迎来到车易销</string>
+    <string name="home_buy_car">购车</string>
+    <string name="home_logistics">物流</string>
+    <string name="home_finance">金融</string>
+    <string name="home_insurance">保险</string>
+    <string name="home_hot_car">热门车型</string>
+    <string name="car_source_address">车辆所在地</string>
+    <string name="price_section">价格区间</string>
+    <string name="login_again">账号已在其他设备登录，请重新登录</string>
+    <string name="car_location_format">车在%s</string>
+    <string name="sell_area_format">售%s</string>
+    <string name="guide_price_format">指导价：%s万/</string>
+    <string name="gap_price">%s万</string>
+    <string name="please_input_search_content">请输入您要搜索的内容</string>
+    <string name="quote_numbers_format">已有%s人报价</string>
+
+
+    <string-array name="car_search_status">
+        <item>寻车中</item>
+        <item>寻车完成</item>
+        <item>寻车取消</item>
+        <item>寻车结束</item>
+    </string-array>
+
+    <string-array name="price_filter_gaps">
+        <item>10万以下</item>
+        <item>10万-20万</item>
+        <item>20万-30万</item>
+        <item>30万以上</item>
+    </string-array>
+
+    <string-array name="my_car_source_tab">
+        <item>出售中</item>
+        <item>已下架</item>
+    </string-array>
+
+
+    <string-array name="states">
+        <item>全部</item>
+        <item>跟进中</item>
+        <item>已下单</item>
+        <item>运输中</item>
+        <item>已到店</item>
+        <item>已交车</item>
+        <item>已取消</item>
+    </string-array>
+
+    <string-array name="stateNum">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>7</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+    <string name="sure_money">定金担保</string>
+    <string name="time">1111.11.11 11:11</string>
+    <string name="buy_status">待付款</string>
+    <string name="cacle_order">取消订单</string>
+    <string name="contact_info">联系人信息</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="head">头像</string>
+    <string name="city">所在城市</string>
+    <string name="city_select">选择省份/城市(必选项)</string>
+    <string name="phone">手机号</string>
+    <string name="input_phone">请输入手机号(必填项)</string>
+    <string name="input_address">请输入地址(必填项)</string>
+    <string name="id_card">身份证正/反面</string>
+    <string name="id_card_zhichi">仅支持展名：JPEG.JPG.PNG...</string>
+    <string name="no_predetermine">— —</string>
+    <string name="home_brand_list">品牌列表</string>
+    <string name="cartext">全部</string>
+    <string name="blank_card_info">银行卡信息</string>
+    <string name="blank_style">银行卡类型</string>
+    <string name="input_blank_style">请输入银行类型(必填项)</string>
+    <string name="blank_name">开户行名称</string>
+    <string name="input_blank_name">请输入开户行名称(必填项)</string>
+    <string name="blank_beyond_name">持卡人姓名</string>
+    <string name="input_blank_beyond_name">请输入持卡人姓名(必填项)</string>
+    <string name="blank_number">银行卡号</string>
+    <string name="input_blank_number">请输入银行卡号(必填项)</string>
+    <string name="on_blank_city">开户行城市</string>
+    <string name="blank_number_people">持卡人身份证</string>
+    <string name="input_blank_number_people">请输入持卡人身份证(必填项)</string>
+    <string name="stor_info">门店信息</string>
+    <string name="stor_name">门店名称</string>
+    <string name="input_stor_name">请输入门店名称(必填项)</string>
+    <string name="company_name">公司全称</string>
+    <string name="input_company_name">请输入公司全称(必填项)</string>
+    <string name="stor_address">门店地址</string>
+    <string name="input_stor_address">请输入门店地址(必填项)</string>
+    <string name="stor_phone">门店电话</string>
+    <string name="input_stor_phone">请输入门店电话(必填项)</string>
+    <string name="processing">正在处理...</string>
+    <string name="all">全部</string>
+    <string name="hint">提示</string>
+    <string name="warnning">网络异常请检查网络</string>
+    <string name="custom_filter_price">自定义</string>
+    <string name="to">至</string>
+    <string name="clear_filter">清空筛选</string>
+    <string name="OK">确定</string>
+    <string name="net_error">网络异常</string>
+    <string name="no_more_data">没有更多数据</string>
+    <string name="load_more_error">加载失败</string>
+    <string name="refresh_error">刷新失败</string>
+    <string name="please_select_brand_first">请先选择品牌</string>
+    <string name="low">下</string>
+    <string name="up">上</string>
+    <string name="loading">加载中...</string>
+    <string name="custome_price">自定义价格</string>
+    <string name="text_empty">暂无数据</string>
+    <string name="edit">编辑</string>
+    <string name="off_market">下架</string>
+    <string name="delete">删除</string>
+    <string name="networkerr">网络异常 点击重试</string>
+    <string name="nodata">暂无数据</string>
+    <string name="Preference">客户购车偏好</string>
+    <string name="preference_detail">购车偏好详情</string>
+    <string name="audit_state">审核失败</string>
+    <string name="please_pass_cert_first">请先通过审核</string>
+    <string name="register_account">注册账户</string>
+    <string name="please_input_mobile">请输入您的手机号</string>
+    <string name="please_input_referee">请输入推荐人姓名</string>
+    <string name="please_input_verify_code">请输入验证码</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="goto_login_with_account">已有账号去登录</string>
+    <string name="send_success">发送成功</string>
+    <string name="password_not_consistent">两次密码不一致</string>
+    <string name="mobile_invalidate">手机号不合法</string>
+    <string name="register_agreement">车易销软件许可使用协议</string>
+    <string name="verify_mobile">验证手机号</string>
+    <string name="next">下一步</string>
+    <string name="complete">完成</string>
+    <string name="setting_new_pwd">设置新密码</string>
+    <string name="pwd_setting_success">密码设置成功</string>
+    <string name="update_tip">更新提示</string>
+    <string name="update_tip_content">欢迎继续使用车易销，我们做了如下更新：</string>
+    <string name="update_text">更新应用</string>
+    <string name="register_success">注册完成</string>
+    <string name="ten_thousands">万</string>
+    <string name="please_login_again">请重新登录</string>
+    <string name="cardescribe">奥迪A6L2018款TFSI 进取型</string>
+    <string name="configdetail">配置详情</string>
+    <string name="max_price_more_than_min_price">最高价格应大于最低价格</string>
+    <string name="max_min_equals_zero_not_allowed">价格不能同时为0</string>
+    <string name="item_describe">车身颜色偏好</string>
+    <string name="predescribe">帕米尔棕</string>
+    <string name="network_error">网络异常 请稍后重试</string>
+    <string name="tv_color_carbody_Statistics">车身颜色关注统计</string>
+    <string name="tv_describe">墨玉黑</string>
+    <string name="tv_color_trim_Statistics">内饰颜色关注统计</string>
+    <string name="tv_color_Matching_Statistics">车辆选配关注统计</string>
+    <string name="offline_download_url">https://cdn.autoforce.net/ixiao/cars/%1$s/18-ensure.json.manifest</string>
+    <string name="offline_download_url_host">https://cdn.autoforce.net/ixiao/cars/%1$s/</string>
+    <string name="audio_verify_code">语音验证码</string>
+    <string name="change_success">修改成功</string>
+    <string name="version_text">版本号：</string>
+    <string name="title">标题</string>
+    <string name="uptate">正在更新应用...(0%)</string>
+    <string name="account_rejected">您的账号已被驳回，请重新提交</string>
+    <string name="account_logout">您的账号已被注销</string>
+
+</resources>

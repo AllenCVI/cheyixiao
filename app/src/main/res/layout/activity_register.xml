@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.autoforce.cheyixiao.common.view.bold.BoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="47dp"
+            android:text="@string/register_account"
+            android:textColor="@color/black2"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp">
+
+            <FrameLayout
+                android:layout_width="33dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="17.5dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_account" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/input_mobile"
+                style="@style/registerInputStyle"
+                android:hint="@string/please_input_mobile"
+                android:inputType="phone"
+                android:maxLength="11" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/greyea" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp">
+
+            <FrameLayout
+                android:layout_width="33dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_verify_code" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/input_verify_code"
+                style="@style/registerInputStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/please_input_verify_code"
+                android:inputType="number"
+                android:maxLength="6" />
+
+            <com.autoforce.cheyixiao.common.view.TimeButton
+                android:id="@+id/tv_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_verify_code"
+                android:textColor="@color/redD5"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/greyea" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp">
+
+            <FrameLayout
+                android:layout_width="33dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_passwd" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/input_pwd"
+                style="@style/registerInputStyle"
+                android:hint="@string/please_input_pwd"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/greyea" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp">
+
+            <FrameLayout
+                android:layout_width="33dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_passwd" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/input_pwd_repeat"
+                style="@style/registerInputStyle"
+                android:hint="@string/please_input_pwd_repeat"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/greyea" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp">
+
+            <FrameLayout
+                android:layout_width="33dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_referee" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/input_referee"
+                style="@style/registerInputStyle"
+                android:hint="@string/please_input_referee" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/greyea" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/fl_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="18dp"
+                android:paddingTop="9dp"
+                android:paddingRight="6dp">
+
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/cb_check_status_bg"
+                    android:button="@null"
+                    android:checked="true" />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="@string/register_agreement"
+                android:textColor="@color/black6"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/button_status_bg"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_rectround_line_greycc"
+            android:gravity="center"
+            android:text="@string/goto_login_with_account"
+            android:textColor="@color/black6"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

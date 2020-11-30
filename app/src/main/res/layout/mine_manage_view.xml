@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_white_all_rount"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10">
+
+    <TextView
+            android:id="@+id/mine_manager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mine_manage"
+            android:textColor="@color/black3"
+            android:gravity="center"
+            android:textSize="@dimen/text_14_size"
+            android:padding="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/icon_mine_manage"
+            android:drawablePadding="@dimen/dp_5"
+    />
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_line"
+            android:background="@color/line_view_color">
+
+    </ImageView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/insurce_manage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_12_size"
+                android:textColor="@color/black6"
+                android:text="@string/insurce_manage"
+                android:drawableTop="@drawable/icon_insure_manage"
+                android:drawablePadding="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:clickable="true"
+        />
+
+        <TextView
+                android:id="@+id/hot_car"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_12_size"
+                android:textColor="@color/black6"
+                android:text="@string/hot_car"
+                android:drawableTop="@drawable/icon_hot_car"
+                android:drawablePadding="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:clickable="true"
+                android:visibility="gone"
+        />
+        <TextView
+                android:id="@+id/change_phone_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_12_size"
+                android:textColor="@color/black6"
+                android:text="@string/changer_phone_number"
+                android:drawableTop="@drawable/icon_change_phone_number"
+                android:drawablePadding="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:clickable="true"
+        />
+        <TextView
+                android:id="@+id/change_pwd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_12_size"
+                android:textColor="@color/black6"
+                android:text="@string/change_pwd"
+                android:drawableTop="@drawable/icon_change_pwd"
+                android:drawablePadding="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:clickable="true"
+        />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

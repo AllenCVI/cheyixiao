@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@color/white"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_8"
+            >
+
+            <TextView
+                android:id="@+id/buy_car_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_16_size"
+                android:textColor="@color/black3"
+                android:text="@string/buy_car_order"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/can_money_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_14_size"
+                android:textColor="@color/redD5"
+                android:text="@string/can"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@drawable/text_kuang_hui97_shape"
+                android:clickable="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_10">
+
+            <TextView
+                android:id="@+id/car_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_14_size"
+                android:textColor="@color/black3"
+                android:text="@string/buy_car_order"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/payer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_14_size"
+                android:textColor="@color/black3"
+                android:text="@string/buy_car_order"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/dp_8"
+                />
+
+            <TextView
+                android:id="@+id/pay_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_14_size"
+                android:textColor="@color/black3"
+                android:text="@string/buy_car_order"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/dp_8"
+                />
+
+            <TextView
+                android:id="@+id/pay_money_can"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_14_size"
+                android:textColor="@color/black3"
+                android:text="@string/buy_car_order"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/dp_8"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
